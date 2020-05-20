@@ -19,7 +19,7 @@
 <body>
     <header class="top-header clearfix">
         <div class="maxwidth">
-        <img src="../marcotulio21mm.github.io/images/logo_mob.svg" alt="logotipo" class="top-header-logo">
+        <img src="../marcotulio21mm.github.io/images/logo.png" alt="logotipo" class="top-header-logo">
 
         <nav class="nav-header">
             <ul>
@@ -30,10 +30,13 @@
             </ul>
         </nav>
     </div>
+    <button class="btn-nav"><i class="fas fa-bars"></i></button>
     </header>
+
     <section class="top-content">
         <div class="icon-play">
-<img src="../marcotulio21mm.github.io/images/icon_play.svg" alt="">
+
+        <img src="../marcotulio21mm.github.io/images/icon_play.svg" alt="icone">
 
         </div>
         <h1 class="content-h1">A exciting new venture over the range</h1>
@@ -130,7 +133,18 @@
         </p>
 
     </footer>
+    <script src="../marcotulio21mm.github.io/jquery/js/jquery-3.5.1.min.js"></script>
 
     <script type="text/javascript" src="../marcotulio21mm.github.io/scroll.js"></script>
+    <script type="text/javascript" src="../marcotulio21mm.github.io/jquery/js/jquery-3.5.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.btn-nav').on('click', function() {
+            $('.nav-header').slideToggle('slow');
+        });
+
+        });
+    </script>
 </body>
 </html>

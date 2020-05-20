@@ -1,0 +1,464 @@
+@charset "UTF-8";
+
+html{
+    font-family: sans-serif;
+ }
+
+body{ 
+    padding-right: 0;
+    width: 100%;
+    margin-right: auto;
+    
+}
+
+#contact_link{
+    
+        height: 490px;
+        background: #242a2c;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 0;
+}
+
+.about_me{
+    background-color:  #373e41;
+    height: 800px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 15px;
+    
+}
+
+.contact_tittle{
+    display: block;
+    float:left;
+    padding:auto;
+    color:rgb(161, 161, 161) ;
+}
+
+.col-1_4_contact{
+    width: 100%;
+        margin-right: 3%;
+        float: left;
+    text-align: center;
+    color: #63c6ae;
+    margin-bottom: 0;
+}
+
+.col-1_4_contact span[class^=fab]{
+    font-size: 3.5em;
+    color: rgb(161, 161, 161);
+    
+}
+
+.middle-content-tittle a{
+    color: #63c6ae;
+}
+
+.img_perfil{
+    height: 500px;
+    position:relative;
+    width: 100%;
+    border-radius: 5%;
+    margin: 10%;
+    
+}
+
+.perfil_img{
+    position: relative;
+    height: 600px;
+    clear: both;
+    width: 80%;
+    float: left;
+      
+     
+}
+
+.description p{
+    display: block;
+    clear:both;
+    float: left;
+    color: white;
+    overflow: hidden;
+    color: transparent;
+}
+
+.description a{
+    color: white;
+    padding-left: 10px;
+}
+
+.img_description{
+    width: 0px;
+    height: 500px;
+    background: rgb(161, 161, 161);
+    position: absolute;
+    top: 0;
+    margin: 10%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    
+    opacity: 0.9;
+}
+
+.img_description p{
+    color: white;
+}
+.img_description{
+    width: 100%;   
+}
+
+.show{
+    display: block;
+    align-items: center;
+    margin-left: 50%;
+    padding: 5px;
+    justify-items: center;
+    background-color: #63c6ae;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact_tittle{
+    padding-top: 20px;
+    display: block;
+    margin-left: 8%;
+}
+
+
+@media screen and (min-width:48.75em){
+    #contact_link{
+        width: 100%;
+            height: 200px;
+            background: #242a2c;
+            margin: 0;
+            padding: 0;
+    }
+    .about_me{
+        background-color:  #373e41;
+        height: 920px;
+        margin-top: 0;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .contact_tittle{
+        display: block;
+        float:left;
+        text-align: center;
+        padding-left: 5%;
+    }
+
+    .col-1_4_contact{
+        width: 25%;
+            margin: 3%;
+            float: left;
+        text-align: center;
+        color: #63c6ae;
+        margin-bottom: 0;
+    }
+
+    .col-1_4_contact span[class^=fab]{
+        font-size: 3.5em;
+        color: rgb(161, 161, 161);
+        
+    }
+
+    .middle-content-tittle a{
+        color: #63c6ae;
+    }
+
+    .img_perfil{
+        height: 500px;
+        position:relative;
+        width: 100%;
+        border-radius: 5%;
+        
+    }
+
+    .perfil_img{
+        position: relative;
+        height: 430px;
+        clear: both;
+        width: 50%;
+        float: left;
+        margin: 5%;  
+         
+    }
+
+    .description p{
+        display: block;
+        color: transparent;
+        float: left;
+        clear: both;
+        padding-top:10px ;
+    }
+
+    .description{
+        width: 30%;
+        float: left;
+        margin: 10%;
+        align-items: center;
+        border: none;
+    }
+
+    .img_description{
+        width: 0px;
+        height: 500px;
+        background: rgb(161, 161, 161);
+        position: absolute;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+        
+        opacity: 0.9;
+    }
+    
+    .img_description p{
+        color: white;
+    }
+    .img_description{
+        width: 100%;
+        
+    }
+
+    .show{
+        display: block;
+    }
+
+    .contact_tittle{
+        padding-top: 20px;
+        display: block;
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (min-width:62.5em ){
+
+    .contact_tittle{
+        display: block;
+        float: left;
+    }
+
+    .middle-content-tittle a{
+        color: #63c6ae;
+    }
+
+    .about_me{
+        background-color: #373e41;
+        height: 650px;
+        clear: both;
+        margin-top: 0;
+    }
+
+    .about_me h1{
+        margin-left: 10%;
+        margin-top: 20px;
+        color:rgb(161, 161, 161) ;
+    }
+   
+
+    .img_perfil{
+        height: 300px;
+        position:relative;
+        top:0;
+        left:13%;
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .perfil_img{
+        clear: both;
+        width: 30%;
+        float: left;
+        margin: 5%;   
+    }
+
+    .img_description{
+        width: 0px;
+        height: 300px;
+        background: rgb(161, 161, 161);
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: 0.7s ease;
+        border-radius: 15px;
+        left: 13%;
+        opacity: 0.9;
+    }
+    
+    .img_description p{
+        color: white;
+    }
+    .perfil_img:hover .img_description{
+        width: 100%;
+    }
+    
+    .description{
+        width: 30%;
+        float: left;
+        margin-left: 10%;
+        align-items: center;
+        border: none;
+    }
+
+    .description p{
+            font-weight: normal;
+            font-size: large;
+            line-height: 1.5;
+            color: rgb(161, 161, 161);
+            display: block;
+    }
+
+    .description a{
+        font-weight: normal;
+            font-size: large;
+            line-height: 1.5;
+            color: rgb(161, 161, 161);
+            display: block;
+    }
+
+    .show{
+        display: none;
+    }
+
+    .col-1_4_contact span[class^=fab]{
+        font-size: 3.5em;
+        color: rgb(161, 161, 161);
+        
+    }
+    
+    .col-1_4_contact{
+        width: 25%;
+            margin: 3%;
+            float: left;
+        text-align: center;
+        color: #63c6ae;
+        margin-bottom: 0;
+    }
+    #contact_link{
+        width: 100%;
+            height: 200px;
+            background: #242a2c;
+            margin: 0;
+    }
+
+    
+    
+}
+
+
+
+@media screen and (min-width:64em){
+body{
+    font-family:sans-serif;
+    margin: 0;
+}
+
+#contact_link{
+    width: 100%;
+        height: 220px;
+        background:#242a2c ;
+        margin: 0;
+        margin-bottom: 0;
+}
+.about_me{
+    background-color:  #373e41;
+    height: 900px;
+    width: 100%;
+    
+}
+
+.contact_tittle{
+    padding-top: 0;
+    margin-top: 0;
+    display: block;
+    margin-left: 10%;
+    color: rgb(161, 161, 161);
+}
+
+.perfil_img{ 
+    width: 40%;
+    float: left;
+    margin: 5%;
+    height: 400px;
+    position: relative;
+    
+}
+
+.img_perfil{
+    height: 400px;
+    position:relative;
+    top: 0;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.img_description{
+    width: 0px;
+    height: 400px;
+    background: rgb(161, 161, 161);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+    border-radius: 20px;
+    left: 13%;
+    opacity: 0.9;
+}
+
+.img_description p{
+    color: white;
+}
+.perfil_img:hover .img_description{
+    width: 100%;
+}
+
+.description{
+    width: 40%;
+    float: right;
+    display: block;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+
+
+.show{
+    display: none;
+}
+
+.middle-content-tittle a{
+    color: #63c6ae;
+}
+
+.col-1_4_contact span[class^=fab]{
+    font-size: 3.5em;
+    color: rgb(161, 161, 161);
+    
+}
+
+.col-1_4_contact{
+    width: 25%;
+        margin: 3%;
+        float: left;
+    text-align: center;
+    color: #63c6ae;
+    margin-bottom: 0;
+}
+
+}
