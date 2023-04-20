@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
+/* #e37218 COR LARANJA */ 
 html{
-   font-family: sans-serif;
+   font-family: 'Arial';
 }
 body{
     position: static;
@@ -39,7 +40,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Oxygen', sans-serif;}
     text-align: center;
     width: 100%; 
     position: fixed;
-    background-color: white;
+    background-color: #242a2c;
 }
 
 .top-header-logo{
@@ -49,7 +50,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Oxygen', sans-serif;}
 }
 
 .nav-header{
-    background-color: #612674;
+    background-color: #e37218;
     text-align: center;
     display: none;
 }
@@ -69,7 +70,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Oxygen', sans-serif;}
 }
 
 .nav-header a:hover{
-    background-color: #7c3792;
+    background-color: #e37218;
 }
 
 .top-content{
@@ -82,6 +83,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Oxygen', sans-serif;}
 
 .icon-play{
     height: 5em;
+    color: #e37218;
     display: none;
 }
 
@@ -91,64 +93,73 @@ h1,h2,h3,h4,h5,h6{font-family: 'Oxygen', sans-serif;}
 }
 
 .content-h1{
-    color: #612674;
+    color: #e37218;
     font-size: 22px;
     margin:1.37em;
 }
 
 .content-h2{
-    color: #a87bb7;
+    color: #f19447;
     font-size: 16px;
 }
 
 .button{
     display: inline-block;
     padding: .9em 2.5em;
-    background-color: rgb(56, 197, 178);
+    background-color: rgb(254, 181, 44);
     border-radius: 5px;
+    font-weight: bold;
     text-decoration: none;
     color: white;
     
 }
 
 .button:hover{
-    background-color: #37a0a0;
+    background-color: #eb8612;
 }
 
 .middle-content{
     padding: 2em;
-    background-color: #f6f6f6;
+    background-color: #1a1a1a;
+    color: white;
     text-align: center;
 }
 
 .middle-content span[class^=fab]{
     font-size: 3.5em;
-    color: #612674;
+    margin-right: 10px;
+    color: #d56204;
+}
+
+.special-icon{
+    font-size: 3.5em;
+    color: #d56204;
 }
 
 
 .main-content{
-    margin: 0 2em 0 2em;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 0 2em 0 2em;
 }
 
 .main-content-tittle{
     font-size: 1.25em;
-    color: #652e78;
+    color: #e37218;
     text-transform: uppercase;
 
 }
 
 .main-content-p{
-    color: #222;
+    color: white;
     line-height: 1.5;
 }
 
 footer{
-    background-color:#25303e;
+    background-color:#242a2c;
     color: #83969f;
     text-align: center;
     padding: 2em;
-    margin-top: 2em;
 }
 
 footer ul{
@@ -167,12 +178,13 @@ footer li{
 footer a{
     text-decoration: none;
     font-size: 1.5em;
-    color: white;
+    color: #e37218;
 }
 
 .col-1_4_contact span[class^=fab]{
     font-size: 3.5em;
-    color: #612674;
+    margin-right: 10px;
+    color: #e37218;
     
 }
 
@@ -198,6 +210,7 @@ footer a{
     }
 
     .icon-play{
+        color: #e37218;
         display: block;
     }
 
@@ -226,7 +239,7 @@ footer a{
     }
 
     .top-content{
-        background-color: #521a66;
+        background-color: #b95d12;
         padding: 10em 0 2em 0;
     }
 
@@ -243,7 +256,7 @@ footer a{
     /*links do menu*/
     .col-1_4_contact span[class^=fab]{
         font-size: 3.5em;
-        color: #612674;
+        color: #b15d18;
         
     }
     
@@ -261,8 +274,7 @@ footer a{
 
 @media screen and (min-width:62.5em ){
     .top-content{
-        background-color: #521a66;
-        background-image: url(./images/bg_topo_1198x670.jpg);
+        background-color: #242a2c;
         background-repeat: no-repeat;
         height: 20em;
         padding-top: 15em;
@@ -273,6 +285,7 @@ footer a{
     }
 
     .icon-play{
+        color: #e37218;
         display: block;
     }
 
@@ -282,7 +295,7 @@ footer a{
 
     .col-1_4_contact span[class^=fab]{
         font-size: 3.5em;
-        color: #612674;
+        color: #e37218;
         
     }
     
@@ -297,7 +310,6 @@ footer a{
 
 @media screen and (min-width:64em){
     .top-content{
-        background-image: url(./images/bg_topo_1600x1374.jpg);
         padding: 19em 20em 10em;
         background-position: center top;
     }
@@ -310,6 +322,7 @@ footer a{
 
     .icon-play{
         height: 5em;
+        color: #e37218;
         display: block;
     }
 
