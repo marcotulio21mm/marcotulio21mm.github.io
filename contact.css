@@ -31,7 +31,7 @@ body{
 
 .contact_tittle{
     display: block;
-    float:left;
+    text-align: center;
     padding:auto;
     color:rgb(161, 161, 161) ;
 }
@@ -124,7 +124,8 @@ body{
 }
 
 .contact_tittle{
-    padding-top: 20px;
+    display: block;
+    text-align: center;
     display: block;
     margin-left: 8%;
 }
@@ -148,7 +149,6 @@ body{
 
     .contact_tittle{
         display: block;
-        float:left;
         text-align: center;
         padding-left: 5%;
     }
@@ -245,7 +245,6 @@ body{
 
     .contact_tittle{
         display: block;
-        float: left;
     }
 
     .middle-content-tittle a{
@@ -261,7 +260,7 @@ body{
 
     .about_me h1{
         margin-left: 10%;
-        margin-top: 20px;
+        margin-top: 0px;
         color:rgb(161, 161, 161) ;
     }
    

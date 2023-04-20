@@ -262,7 +262,8 @@ footer a{
 @media screen and (min-width:62.5em ){
     .top-content{
         background-color: #521a66;
-        background-image: url(../marcotulio21mm.github.io/images/bg_topo_1198x670.jpg);
+        background-image: url(./images/bg_topo_1198x670.jpg);
+        background-repeat: no-repeat;
         height: 20em;
         padding-top: 15em;
     }
@@ -296,7 +297,7 @@ footer a{
 
 @media screen and (min-width:64em){
     .top-content{
-        background-image: url(../marcotulio21mm.github.io/images/bg_topo_1600x1374.jpg);
+        background-image: url(./images/bg_topo_1600x1374.jpg);
         padding: 19em 20em 10em;
         background-position: center top;
     }
